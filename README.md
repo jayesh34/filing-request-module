@@ -2,6 +2,8 @@
 
 # Filing Request Submission Module
 
+**Repository:** https://github.com/jayesh34/filing-request-module.git
+
 A full-stack module for customs brokers to submit, view, update, and delete customs filing requests. Built for the Neximprove Full Stack Internship task (Task Option 2).
 
 ## Tech Stack
@@ -12,22 +14,23 @@ A full-stack module for customs brokers to submit, view, update, and delete cust
 
 ## Project Structure
 
+```
 filing-request-module/
-├── filing-request-backend/ # Express API server
-│ ├── Controller/
-│ │ └── filingController.js
-│ ├── routes/
-│ │ └── filingRoutes.js
-│ ├── db.js
-│ └── server.js
-├── filing-request-frontend/ # React application
-│ └── src/
-│ ├── components/
-│ │ ├── FilingForm.js
-│ │ └── FilingList.js
-│ └── App.js
-└── postman/ # Postman collection for API testing
-
+├── filing-request-backend/      
+│   ├── Controller/
+│   │   └── filingController.js
+│   ├── routes/
+│   │   └── filingRoutes.js
+│   ├── db.js
+│   └── server.js
+├── filing-request-frontend/     
+│   └── src/
+│       ├── components/
+│       │   ├── FilingForm.js
+│       │   └── FilingList.js
+│       └── App.js
+└── postman/                    
+```
 ## How to Run
 
 ### Backend
