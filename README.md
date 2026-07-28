@@ -2,7 +2,7 @@
 
 # Filing Request Submission Module
 
-**Repository:** https://github.com/jayesh34/filing-request-module.git
+**Repository:** https://github.com/jayesh34/filing-request-module
 
 A CRUD-based module for submitting and managing customs filing requests, built for the Neximprove Full Stack Internship task.
 
