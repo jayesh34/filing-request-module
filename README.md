@@ -41,11 +41,13 @@ npm install
 
 Create a `.env` file in this folder:
 
+```
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=Preet@123
+DB_PASSWORD=your_mysql_password
 DB_NAME=filingdb
 PORT=5000
+```
 
 Run this in MySQL to set up the database:
 ```sql
