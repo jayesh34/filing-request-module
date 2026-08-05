@@ -3,13 +3,15 @@ const cors = require('cors');
 require('dotenv').config();
 
 const filingRoutes = require('./routes/filingRoutes');
-
+const authRoutes = require('./routes/authRoutes');
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
+
 app.use('/api/filings', filingRoutes);
+app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
   res.send('Filing backend is running!');
